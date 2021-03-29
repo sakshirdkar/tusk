@@ -86,5 +86,7 @@ const myLinked = new LinkedList(4);
 myLinked.insert(3,1);
 myLinked.insert(17,2);
 myLinked.insert(78,4);
+myLinked.insert(108,1);
+myLinked.remove(1);
 console.log(myLinked.print());
 
