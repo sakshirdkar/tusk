@@ -83,14 +83,10 @@ class LinkedList {
 }
 
 const myLinked = new LinkedList(4);
-myLinked.insert(3,1);
-myLinked.insert(17,2);
-myLinked.insert(78,4);
-myLinked.insert(108,1);
-myLinked.insert(55,9);
-myLinked.insert('someString',2);
-myLinked.insert(78,3);
-console.log(myLinked.print());
-myLinked.remove(1);
+//String type list
+myLinked.insert('GitHub',1);
+myLinked.insert('Data Structures',2);
+myLinked.insert('LinkedIn',4);
+
 console.log(myLinked.print());
 
