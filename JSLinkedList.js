@@ -83,6 +83,7 @@ class LinkedList {
 }
 
 const myLinked = new LinkedList(4);
+//String type list
 myLinked.insert('GitHub',1);
 myLinked.insert('Data Structures',2);
 myLinked.insert('LinkedIn',4);
