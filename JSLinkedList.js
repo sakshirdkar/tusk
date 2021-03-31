@@ -87,6 +87,10 @@ const myLinked = new LinkedList(4);
 myLinked.insert('GitHub',1);
 myLinked.insert('Data Structures',2);
 myLinked.insert('LinkedIn',4);
+myLinked.insert('Facebook',4);
+myLinked.insert('Microsoft',4);
+myLinked.insert('Machine Learning',4);
+myLinked.insert('Python',4);
 
 console.log(myLinked.print());
 
